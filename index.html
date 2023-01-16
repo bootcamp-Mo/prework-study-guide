@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,21 +7,16 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
-
   <body>
     <header id="top">
       <h1>Prework Study Guide Module</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>Open the console log to see what is happening</h2>
     </header>
-
     <main>
-
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
           <li>The <b>head</b> element contains information about the webpage.</li>
-
           <li>The <b>body</b> element respesents the visible content shown to the user.</li>
         </ul>
       </section>
@@ -32,28 +26,38 @@
         <ul>
           <li>A <b>margin</b> indecates how much space we want around the outside of 
             an element.</li>
-
           <li><b>Padding</b> indecates how much space we want around the content inside 
             an element.</li>
-
           <li>A <b>Link</b> element creates the connection to the external file.</li>
-
           <li>The <b>herf</b> attribute specifies the location of the external resources.</li>
-
           <li>Inline CSS is use to directly style an elemetn in HTML, but best practices 
             for coding is <b>Separation of concerns</b> where each section of code should 
             have its own responsibility.</li>
-
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li><b>git status:</b> checks what branch we are currently on.</li>
-
-          <li><b>git checkout -b branch-name:</b>
-            creates a new branch and switches to it.</li>
+          <li><b>cd</b> is to to call a directory and change to that directory.</li>
+          <li><b>cd ..</b> is used to go back one directory, 
+            from /prework-study-guide/assets to /prework-study-guide.</li>
+          <li><b>git status</b> shows what branch we are currently on.</li>
+          <li><b>git checkout -b branch-name:</b> creates a new branch and switches to it.</li>
+          <li><b>git add -A</b>  The add command adds modifications in the current working 
+              branch to the staging area. The -A flag indicates that we want to add all 
+              changes. The staging area informs Git that the changes will be added in the 
+              next commit.</li>
+          <li>To tell git to add a commit message the command 
+            <b> git commit -m "Message example".</b></li>
+          <li><b>git pull origin main</b>is used to pull any changes from the base 
+            branch to the main branch.</li>
+          <li> <b>origin</b> indicates the source of the pull will be in the GitHub repo.</li>
+          <li><b>main</b> indicates the branch.</li>
+          <li><b>push</b> is used to push changes made locally to the remote GitHub branch.</li>
+          <li>A <b>pull request, PR</b> is used to merge a comparison branch 
+            into the base branch.</li>
+          
         </ul>
       </section>
 
@@ -103,8 +107,6 @@
 
           <li>Indices follow a predictable pattern, it increasses by 1 each time. 
             x++ === x+1</li>
-
-          
         </ul>
       </section>
 
@@ -113,6 +115,5 @@
     <footer>
       <p>I can code!</p>
     </footer>
-    <script src="./assets/scripts.js"></script>
   </body>
 </html>
